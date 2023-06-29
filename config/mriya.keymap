@@ -117,7 +117,7 @@
 
         rgp {
             timeout-ms = <20>;
-            bindings = <&kp RG(P)>;
+            bindings = <&kp RG(LBKT)>;
             key-positions = <10 11>;
         };
 
