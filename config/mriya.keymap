@@ -25,87 +25,87 @@
     combos {
         compatible = "zmk,combos";
 
-        new_combo {
+        rb {
             bindings = <&kp RBKT>;
             key-positions = <6 7>;
         };
 
-        new_combo {
+        lb {
             bindings = <&kp LBKT>;
             key-positions = <4 5>;
         };
 
-        new_combo {
+        lbb {
             bindings = <&kp LPAR>;
             key-positions = <16 17>;
         };
 
-        new_combo {
+        rbb {
             bindings = <&kp RPAR>;
             key-positions = <18 19>;
         };
 
-        new_combo {
+        lbbb {
             bindings = <&kp LBRC>;
             key-positions = <28 29>;
         };
 
-        new_combo {
+        rbbb {
             bindings = <&kp RBRC>;
             key-positions = <30 31>;
         };
 
-        new_combo {
+        cps1 {
             bindings = <&kp CLCK>;
             key-positions = <19 41>;
         };
 
-        new_combo {
+        cps2 {
             bindings = <&kp CLCK>;
             key-positions = <19 20>;
         };
 
-        new_combo {
+        cps3 {
             bindings = <&kp CLCK>;
             key-positions = <15 16>;
         };
 
-        new_combo {
+        cps4 {
             bindings = <&kp CLCK>;
             key-positions = <16 38>;
         };
 
-        new_combo {
+        mns {
             bindings = <&kp MINUS>;
             key-positions = <21 20>;
         };
 
-        new_combo {
+        unds {
             bindings = <&kp UNDER>;
             key-positions = <21 22>;
         };
 
-        new_combo {
+        ent {
             bindings = <&kp RET>;
             key-positions = <4 17>;
         };
 
-        new_combo {
+        bksp {
             bindings = <&kp BACKSPACE>;
             key-positions = <3 4>;
         };
 
-        new_combo {
+        spc {
             bindings = <&kp SPACE>;
             key-positions = <8 9>;
         };
 
-        new_combo {
+        rgp {
             bindings = <&kp RG(P)>;
             key-positions = <10 11>;
         };
 
-        new_combo {
+        lap {
             bindings = <&kp LA(P)>;
             key-positions = <9 10>;
         };
