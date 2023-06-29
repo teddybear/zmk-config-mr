@@ -127,12 +127,12 @@
             key-positions = <9 10>;
         };
 
-        new_combo {
+        eql {
             bindings = <&kp EQUAL>;
             key-positions = <7 8>;
         };
 
-        new_combo {
+        pls {
             bindings = <&kp PLUS>;
             key-positions = <31 32>;
         };
