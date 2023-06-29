@@ -14,11 +14,11 @@
 #define ADJ 3
 
 &lt {
-    quick_tap_ms = <200>;
+    quick_tap_ms = <125>;
 };
 
 &mt {
-    quick_tap_ms = <200>;
+    quick_tap_ms = <125>;
 };
 
 / {
@@ -26,86 +26,103 @@
         compatible = "zmk,combos";
 
         rb {
+            timeout-ms = <20>;
             bindings = <&kp RBKT>;
             key-positions = <6 7>;
         };
 
         lb {
+            timeout-ms = <20>;
             bindings = <&kp LBKT>;
             key-positions = <4 5>;
         };
 
         lbb {
+            timeout-ms = <20>;
             bindings = <&kp LPAR>;
             key-positions = <16 17>;
         };
 
         rbb {
+            timeout-ms = <20>;
             bindings = <&kp RPAR>;
             key-positions = <18 19>;
         };
 
         lbbb {
+            timeout-ms = <20>;
             bindings = <&kp LBRC>;
             key-positions = <28 29>;
         };
 
         rbbb {
+            timeout-ms = <20>;
             bindings = <&kp RBRC>;
             key-positions = <30 31>;
         };
 
         cps1 {
+            timeout-ms = <20>;
             bindings = <&kp CLCK>;
             key-positions = <19 41>;
         };
 
         cps2 {
+            timeout-ms = <20>;
             bindings = <&kp CLCK>;
             key-positions = <19 20>;
         };
 
         cps3 {
+            timeout-ms = <20>;
             bindings = <&kp CLCK>;
             key-positions = <15 16>;
         };
 
         cps4 {
+            timeout-ms = <20>;
             bindings = <&kp CLCK>;
             key-positions = <16 38>;
         };
 
         mns {
+            timeout-ms = <20>;
             bindings = <&kp MINUS>;
             key-positions = <21 20>;
         };
 
         unds {
+            timeout-ms = <20>;
             bindings = <&kp UNDER>;
             key-positions = <21 22>;
         };
 
         ent {
+            timeout-ms = <20>;
             bindings = <&kp RET>;
             key-positions = <4 17>;
         };
 
         bksp {
+            timeout-ms = <20>;
             bindings = <&kp BACKSPACE>;
             key-positions = <3 4>;
         };
 
         spc {
+            timeout-ms = <20>;
             bindings = <&kp SPACE>;
             key-positions = <8 9>;
         };
 
         rgp {
+            timeout-ms = <20>;
             bindings = <&kp RG(P)>;
             key-positions = <10 11>;
         };
 
         lap {
+            timeout-ms = <20>;
             bindings = <&kp LA(P)>;
             key-positions = <9 10>;
         };
